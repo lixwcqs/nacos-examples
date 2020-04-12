@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigController {
 
-    @Value("${useLocalCache:false}")
+    /**
+     *${useLocalCache:true} 提供默认值
+     */
+    @Value("${useLocalCache}")
     private boolean useLocalCache;
 
     /**

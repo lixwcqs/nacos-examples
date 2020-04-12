@@ -34,7 +34,8 @@ public class Test extends AbstractHealthChecker{
      *
      * @param writer
      */
-    @Override
+//    @Override
+
     public void jsonAdapterCallback(SerializeWriter writer) {
         //writer.writeFieldValue(',', "field1", "value1");
     }
